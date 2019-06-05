@@ -1,0 +1,3 @@
+#!/bin/sh
+sudo dd iflag=dsync oflag=dsync if=./cc_bootloader.210.bin of=/dev/sdb seek=1
+sudo dd iflag=dsync oflag=dsync if=./cc_bootloader.bin of=/dev/sdb seek=45
